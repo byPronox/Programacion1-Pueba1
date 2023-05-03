@@ -12,7 +12,7 @@ int main()
     {
         printf("Ingresa un numero entero positivo:\n");
         scanf("%llu", &num);
-    } while (num >= 0);
+    } while (num <= 0);
 
     //Se ocupa itoa para transformar el numero entero a hexadecimal
     ltoa(num, cadena, 16);
